@@ -96,6 +96,72 @@ private:
   G4LogicalVolume* LeadShield_logic;
   G4LogicalVolume* Mirror_logic;
   G4LogicalVolume* AlStopper_logic;
+
+
+  /// New beam-line description.
+  G4LogicalVolume* tub1_logic;
+  G4LogicalVolume* tub1_vacuum_logic;
+  G4LogicalVolume* tub2_logic;
+  G4LogicalVolume* tub2_vacuum_logic;
+  G4LogicalVolume* tub3_logic;
+  G4LogicalVolume* tub3_vacuum_logic;
+  G4LogicalVolume* tub4_logic;
+  G4LogicalVolume* tub4_vacuum_logic;
+  G4LogicalVolume* tub5_logic;
+  G4LogicalVolume* tub5_vacuum_logic;
+  G4LogicalVolume* tub6_logic;
+  G4LogicalVolume* tub6_vacuum_logic;
+  G4LogicalVolume* tub7_logic;
+  G4LogicalVolume* tub7_vacuum_logic;
+  G4LogicalVolume* tub8_logic;
+  G4LogicalVolume* tub8_vacuum_logic;
+  G4LogicalVolume* tub9_logic;
+  G4LogicalVolume* tub9_vacuum_logic;
+  G4LogicalVolume* tub10_logic;
+  G4LogicalVolume* tub10_vacuum_logic;
+  G4LogicalVolume* tub11_logic;
+  G4LogicalVolume* tub11_vacuum_logic;
+  G4LogicalVolume* tub12_logic;
+  G4LogicalVolume* tub12_vacuum_logic;
+  G4LogicalVolume* tub13_logic;
+  G4LogicalVolume* tub13_vacuum_logic;
+  G4LogicalVolume* tub14_logic;
+  G4LogicalVolume* tub14_vacuum_logic;
+  G4LogicalVolume* tub15_logic;
+  G4LogicalVolume* tub15_vacuum_logic;
+  G4LogicalVolume* tub16_logic;
+  G4LogicalVolume* tub16_vacuum_logic;
+  G4LogicalVolume* tub17_logic;
+  G4LogicalVolume* tub17_vacuum_logic;
+  G4LogicalVolume* tub18_logic;
+  G4LogicalVolume* tub18_vacuum_logic;
+  G4LogicalVolume* vacChamEnter1_logic;
+  G4LogicalVolume* vacChamEnter2_logic;
+  G4LogicalVolume* vacChamEnter2vacuum_logic;
+  G4LogicalVolume* tub20_logic;
+  G4LogicalVolume* tub20_vacuum_logic;
+  G4LogicalVolume* tub21a_logic;
+  G4LogicalVolume* tub21a_vacuum_logic;
+  G4LogicalVolume* tub21b_logic;
+  G4LogicalVolume* tub21c_logic;
+  G4LogicalVolume* tub22_logic;
+  G4LogicalVolume* leadCol16_logic;
+  G4LogicalVolume* leadCol12_logic;
+  ///
+
+  /// Target support description.
+  G4LogicalVolume* ring_opravka_target_logic;
+  G4LogicalVolume* ring_opravka_mirror_logic;
+  G4LogicalVolume* target_support_ring_logic;
+  G4LogicalVolume* target_support_ring_p1_logic;
+  G4LogicalVolume* target_support_ring_p2_logic;
+  G4LogicalVolume* target_support_ring_p3_logic;
+  G4LogicalVolume* mirror_support_ring_logic;
+
+  G4LogicalVolume* support_rings_table_logic;
+  G4LogicalVolume* support_rings_rigidity_logic;
+  G4LogicalVolume* bpm_base_logic;
+  ///
   
   G4double fEndofTube;
   G4bool fMirrorOn;

@@ -83,7 +83,7 @@
 #
 # Axes, scale, etc.
 #/vis/scene/add/scale   # Simple scale line
-#/vis/scene/add/axes    # Simple axes: x=red, y=green, z=blue.
+/vis/scene/add/axes    # Simple axes: x=red, y=green, z=blue.
 #/vis/scene/add/eventID # Drawn at end of event
 #/vis/scene/add/date    # Date stamp
 #/vis/scene/add/logo2D  # Simple logo
@@ -106,47 +106,47 @@
 /vis/geometry/set/visibility World 0 false
 
 #  Inner_Vacuum and Holes in chamber are transparent to represent vacuum
-/vis/geometry/set/colour Vacuum_Chamber 0 1 1 1 .3
-/vis/geometry/set/colour Inner_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour Chamber_Hole1 0 0 0 0 .1
-/vis/geometry/set/colour Chamber_Hole2 0 0 0 0 .1
-/vis/geometry/set/colour Chamber_Hole3 0 0 0 0 .1
-/vis/geometry/set/colour Chamber_Inner_Cap_Tube 0 0 0 0 .1
-/vis/geometry/set/colour Chamber_Cap_Tube 0 1 1 1 .1
-/vis/geometry/set/colour Chamber_Cap1 0 1 1 1 .15
-/vis/geometry/set/colour Chamber_Cap2 0 1 1 1 .5
+# /vis/geometry/set/colour Vacuum_Chamber 0 1 1 1 .3
+# /vis/geometry/set/colour Inner_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour Chamber_Hole1 0 0 0 0 .1
+# /vis/geometry/set/colour Chamber_Hole2 0 0 0 0 .1
+# /vis/geometry/set/colour Chamber_Hole3 0 0 0 0 .1
+# /vis/geometry/set/colour Chamber_Inner_Cap_Tube 0 0 0 0 .1
+# /vis/geometry/set/colour Chamber_Cap_Tube 0 1 1 1 .1
+# /vis/geometry/set/colour Chamber_Cap1 0 1 1 1 .15
+# /vis/geometry/set/colour Chamber_Cap2 0 1 1 1 .5
 
-/vis/geometry/set/colour Collimator 0 1 1 1 .5
-/vis/geometry/set/colour Collimator_Vacuum1 0 0 0 0 .1
-/vis/geometry/set/colour Collimator_Vacuum2 0 0 0 0 .1
-/vis/geometry/set/colour Collimator_Lead1 0 0 0 0 .15
-/vis/geometry/set/colour Collimator_Lead2 0 0 0 0 .15
+# /vis/geometry/set/colour Collimator 0 1 1 1 .5
+# /vis/geometry/set/colour Collimator_Vacuum1 0 0 0 0 .1
+# /vis/geometry/set/colour Collimator_Vacuum2 0 0 0 0 .1
+# /vis/geometry/set/colour Collimator_Lead1 0 0 0 0 .15
+# /vis/geometry/set/colour Collimator_Lead2 0 0 0 0 .15
 
-/vis/geometry/set/colour BeamTube11 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube11_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube12 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube12_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube2 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube2_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube3 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube3_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube41 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube41_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube42 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube42_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube43 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube43_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube5 0 1 1 1 .3
-/vis/geometry/set/colour BeamTube5_Vacuum 0 0 0 0 .1
-/vis/geometry/set/colour BeamTube6 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube11 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube11_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube12 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube12_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube2 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube2_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube3 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube3_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube41 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube41_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube42 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube42_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube43 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube43_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube5 0 1 1 1 .3
+# /vis/geometry/set/colour BeamTube5_Vacuum 0 0 0 0 .1
+# /vis/geometry/set/colour BeamTube6 0 1 1 1 .3
 
-/vis/geometry/set/colour CsI_Tl 0 1 0 0 .9
-/vis/geometry/set/colour Mirror 0 0 1 0 .9
-/vis/geometry/set/colour Al_Stopper 0 0 0 1 .9
+# /vis/geometry/set/colour CsI_Tl 0 1 0 0 .9
+# /vis/geometry/set/colour Mirror 0 0 1 0 .9
+# /vis/geometry/set/colour Al_Stopper 0 0 0 1 .9
 
-/vis/geometry/set/colour LeadShield 0 1 1 1 .5
+# /vis/geometry/set/colour LeadShield 0 1 1 1 .5
 
-/vis/geometry/set/colour PositronCounter 0 1 0 0 1.
+# /vis/geometry/set/colour PositronCounter 0 1 0 0 1.
 
 
 /vis/viewer/set/style surface
@@ -155,8 +155,8 @@
 #
 
 #filtering to see only positive particles
-/vis/filtering/trajectories/create/chargeFilter "Pos"
-/vis/filtering/trajectories/"Pos"/add 1
+# /vis/filtering/trajectories/create/chargeFilter "Pos"
+# /vis/filtering/trajectories/"Pos"/add 1
 
 # Re-establish auto refreshing and verbosity:
 /vis/viewer/set/autoRefresh true
@@ -164,3 +164,17 @@
 #
 # For file-based drivers, use this to create an empty detector view:
 #/vis/viewer/flush
+
+
+/vis/modeling/trajectories/create/drawByParticleID MyViewer
+/vis/modeling/trajectories/MyViewer/set gamma grey
+/vis/modeling/trajectories/MyViewer/set e- blue
+/vis/modeling/trajectories/MyViewer/set e+ red
+/vis/modeling/trajectories/MyViewer/set mu+ green
+
+/vis/geometry/set/colour ring_opravka_target 0 1 1 0 1
+/vis/geometry/set/colour ring_opravka_mirror 0 1 1 0 1
+/vis/geometry/set/colour target_support_ring 0 0 1 1 1
+/vis/geometry/set/colour mirror_support_ring 0 0 1 1 1
+/vis/geometry/set/colour support_rings_rigidity 0 1 0 1 1
+/vis/geometry/set/colour support_rings_table 0 1 0 1 1
